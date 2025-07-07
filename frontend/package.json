@@ -36,5 +36,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://jewelry-store-6c2e.vercel.app/:3001"
+  "proxy": "http://jewelry-store-6c2e.vercel.app:3001"
 }
