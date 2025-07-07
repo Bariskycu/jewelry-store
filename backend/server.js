@@ -8,7 +8,10 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: 'https://jewelry-store-6c2e.vercel.app/:3000',
+  credentials: true // if you're using cookies
+}));
 app.use(express.json());
 
 // Read products data
